@@ -1,0 +1,55 @@
+name: '&8创建一个 &2{type} &8合同.'
+slots: 27
+items:
+  go-back:
+    function: 'go-back'
+    item: OAK_SIGN
+    slots:
+      - 9
+    name: '&c返回'
+  create:
+    function: 'create'
+    item: RED_WOOL
+    slots:
+      - 17
+    name: '&e创建'
+  parameter:
+    function: 'parameter'
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    filled:
+      item: ENCHANTED_BOOK
+      name: '&6{id}'
+      lore:
+        - '&e已设定此参数!'
+        - '&5--------------------------'
+        - '{description}'
+        - '&5--------------------------'
+        - '&e值: &6{value}'
+    to-fill:
+      item: BOOK
+      name: '&6{id}'
+      lore:
+        - '&c这个参数需要被设定!'
+        - '&5--------------------------'
+        - '{description}'

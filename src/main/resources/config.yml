@@ -1,0 +1,62 @@
+decimal-format: '0.##'
+
+# 用于颜色代码的字符
+color-code-char: '&'
+
+# MySQL 支持
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  user: root
+  pass: pass
+  properties:
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+  # 当从 SQL 数据库保存/加载数据时，会在控制台上输出详细信息。
+  debug: false
+
+# 如果要启用向 Discord 发送消息，请设置为 true。
+send-discord-messages: false
+
+# 消息将被发送到的 webhook URL。
+# 消息内容可以在 discord-messages.yml 文件中完全自定义。
+# 您可以在 Discord 服务器的设置 -> 集成 -> Webhooks -> 创建 Webhook 中轻松创建 Webhook URL。
+discord-webhooks:
+  - ""
+
+# 合同结束后，可以在此期限内提供评价的天数。
+review-period: 5
+
+# 可以提起争议的天数。
+# 此期限结束后，合同将被标记为已解决，双方将无法提起争议。
+call-dispute-period: 3
+
+# 可以提起上诉并呼叫管理员的天数。
+# 此期限结束后，合同将被标记为已解决，双方将无法提起上诉。
+call-admin-period: 3
+
+# 定时器检查是否超过 call-dispute 期限的周期。
+# 以小时为单位
+check-if-resolved-period: 1
+
+# 雇主必须支付的税率（百分比）。
+contract-taxes: 0
+
+# 担保人每处理一份合同所收取的佣金（百分比）。
+middleman-commission: 10
+
+# 玩家在评论中可以给出的字符和行数限制。
+max-comment-lines: 4
+max-comment-char-per-line: 20
+
+max-employer-contract: 5
+max-contract-per-middleman: 5
+
+# 登录时是否向玩家发送有关上次登录以来创建的合同数量的消息。
+send-message-when-login: true
+
+# 默认评价标注，如果未更改。（员工 1 雇主 5）
+default-notation: 3

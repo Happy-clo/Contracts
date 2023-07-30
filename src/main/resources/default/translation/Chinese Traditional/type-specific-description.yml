@@ -1,0 +1,36 @@
+generic:
+  description:
+    - ''
+hitman:
+  description:
+    - "&f◆ &ePlayer to Kill: &6{player-to-kill}"
+trade:
+  description:
+    - "&f◆ &eTraded item: &6{traded-item}"
+    - "&f◆ &eTraded amount: &6{traded-item-amount}"
+  special-action:
+    employee:
+      name: "&fGive items"
+      lore:
+        - "&eClick to give all the &6{traded-item}&e in your inventory."
+        - "&eItems given: &6{item-given}&e."
+        - "&eTotal items required: &6{traded-item-amount}&e."
+    employer:
+      name: "&fClaim items"
+      lore:
+        - "&eClick to claim &6{traded-item}&e."
+        - "&eItems already claimed: &6{item-taken}&e."
+        - "&eTotal items to claim: &6{traded-item-amount}&e."
+lending:
+  description:
+    - "&f◆ &eInterest rate: &6{interest-rate}"
+    - "&f◆ &eRefund amount: &6{refund-amount}"
+  special-action:
+    employee:
+      name: "&fRefund your debt"
+      lore:
+        - "&eClick to refund &6{refund-amount}&e."
+    employer:
+      name: "&fClaim your money."
+      lore:
+        - "&eClick to claim &6{refund-amount}&e."

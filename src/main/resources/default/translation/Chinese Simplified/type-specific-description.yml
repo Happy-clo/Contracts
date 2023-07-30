@@ -1,0 +1,36 @@
+generic:
+  description:
+    - ''
+hitman:
+  description:
+    - "&f◆ &e要击杀的玩家: &6{player-to-kill}"
+trade:
+  description:
+    - "&f◆ &e目标物品: &6{traded-item}"
+    - "&f◆ &e目标物品数量: &6{traded-item-amount}"
+  special-action:
+    employee:
+      name: "&f交付物品"
+      lore:
+        - "&e点击将你背包中的 &6{traded-item}&e 交给雇主."
+        - "&e已交付的物品: &6{item-given}&e."
+        - "&e共需要交付: &6{traded-item-amount}&e."
+    employer:
+      name: "&f领取物品"
+      lore:
+        - "&e点击领取 &6{traded-item}&e."
+        - "&e已领取的物品: &6{item-taken}&e."
+        - "&e共需要领取: &6{traded-item-amount}&e."
+lending:
+  description:
+    - "&f◆ &e日利率: &6{interest-rate}"
+    - "&f◆ &e还款金额: &6{refund-amount}"
+  special-action:
+    employee:
+      name: "&f偿还你的债务"
+      lore:
+        - "&e点击还款 &6{refund-amount}&e."
+    employer:
+      name: "&f收取你的钱."
+      lore:
+        - "&e点击收取 &6{refund-amount}&e."

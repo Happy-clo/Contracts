@@ -1,0 +1,70 @@
+#GUI display name
+name: '&2{player} 的历史评价'
+#Number of slots in your inventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 45
+items:
+  next-page:
+    slots:
+      - 26
+    function: 'next-page'
+    item: ARROW
+    name: '&a下一页'
+  previous-page:
+    slots:
+      - 18
+    function: 'previous-page'
+    item: ARROW
+    name: '&a上一页'
+  go-back:
+    slots:
+      - 18
+    function: 'go-back'
+    item: OAK_SIGN
+    name: '&e返回.'
+  review:
+    function: 'review'
+    item: BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+    name: '&a评价者: &c{reviewer}'
+    lore:
+      - '&e合同: {contract-name}'
+      - '&e评级: &6{notation}'
+      - '&e评论:'
+      - '{comment}'
+      - '&6{posted-since}&e 前被发布.'

@@ -1,0 +1,30 @@
+#GUI display name
+name: "&8{type} Type "
+#Number of slots in your inventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 9
+items:
+  generic:
+    function: generic
+    name: '&6Generic Contracts'
+    slots:
+      - 0
+    item: BLACK_CONCRETE
+  hitman:
+    function: 'hitman'
+    name: '&6Kill Contracts'
+    slots:
+      - 1
+    item: RED_CONCRETE
+  trade:
+    function: 'trade'
+    name: '&6Trade Contracts'
+    slots:
+      - 2
+    item: BLUE_CONCRETE
+  lending:
+    function: 'lending'
+    name: '&6Lending Contracts'
+    slots:
+      - 3
+    item: WHITE_CONCRETE

@@ -1,0 +1,35 @@
+name:
+  name: 名称
+  description:
+    - 你的合同的名称是什么?
+description:
+  name: 说明
+  description:
+    - 你会如何描述你的合同内容?
+deadline:
+  name: 截止日期
+  description:
+    - 这个合同需要在
+    - 此天数内被完成
+guarantee:
+  name: 保证金
+  description:
+    - 若雇员没有完成合同内容
+    - 将支付给你的保证金数量.
+payment-amount:
+  name: 报酬
+  description:
+    - 如果雇员完成了合同
+    - 你需要向他支付的金额.
+player-to-kill:
+  name: 要击杀的玩家
+  description:
+    - 需要杀死的玩家是谁?
+traded-item:
+  name: 物品
+  description:
+    - 你想要的物品的名字是什么?
+traded-item-amount:
+  name: 物品数量
+  description:
+    - 你需要多少交易对象物品?

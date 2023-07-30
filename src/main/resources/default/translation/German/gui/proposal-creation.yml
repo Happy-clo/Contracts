@@ -1,0 +1,42 @@
+name: '&8Proposal Creation for {contract-name}.'
+slots: 9
+items:
+  back:
+    name: '&cGo Back'
+    function: 'back'
+    item: OAK_SIGN
+    slots:
+      - 8
+  confirm:
+    function: 'confirm'
+    name: '&aConfirm'
+    item: GREEN_WOOL
+    slots:
+      - 0
+  amount:
+    function: 'amount'
+    name: '&fSet Amount'
+    item: PAPER
+    slots:
+      - 3
+    lore:
+      - ''
+      - '&e◆Current Amount: &6{amount}&e.'
+      - '&e◆Initial Amount: &6{initial-amount}&e.'
+      - "&5--------------------------------------"
+      - '&a↪ &fLeft Click &ato change the amount.'
+  guarantee:
+    function: 'guarantee'
+    name: '&fSet Guarantee'
+    item: PAPER
+    slots:
+      - 5
+    lore:
+      - ''
+      - '&e◆Current Guarantee: &6{guarantee}&e.'
+      - '&e◆Initial Guarantee: &6{initial-guarantee}&e.'
+      - "&5--------------------------------------"
+      - '&a↪ &fLeft Click &ato change the guarantee.'
+
+
+

@@ -1,0 +1,62 @@
+name: '&8Proposals for {contract-name}.'
+slots: 27
+items:
+  go-back:
+    name: '&cGo Back'
+    function: 'go-back'
+    item: OAK_SIGN
+    slots:
+      - 18
+  next-page:
+    function: 'next-page'
+    name: '&cNext Page'
+    item: ARROW
+    slots:
+      - 17
+  previous-page:
+    function: 'previous-page'
+    name: '&cPrevious Page'
+    item: ARROW
+    slots:
+      - 9
+  proposal:
+    function: 'proposal'
+    item: WRITABLE_BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    name: "&c{other}&a's proposal"
+    lore:
+      - ''
+      - "&e◆ Initial Amount: &6{initial-amount}"
+      - "&e◆ Proposal's Amount: &6{proposal-amount}"
+      - "&e◆ Amount to pay with taxes: &6{proposal-amount-taxes}"
+      - "&e◆ Initial Guarantee: &6{initial-guarantee}"
+      - "&e◆ Proposal's Guarantee: &6{proposal-guarantee}"
+      - "&f◆ &6{other}&e's Reputation: &6{other-reputation}"
+      - '&f◆ &6{other}&e Total Reviews: &6{other-total-reviews}'
+      - '&f◆ &ePosted &6{posted-since} &eago'
+      - '&5------------------------'
+      - '&a↪ &fLeft&a Click to accept the proposal.'
+      - "&a↪ &fShift&a+&fRight&a Click to see &6{other}&a 's Reputation"
+
+

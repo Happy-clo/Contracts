@@ -1,0 +1,83 @@
+name: '&8Admin Disputed Contracts'
+slots: 45
+items:
+  next-page:
+    function: 'next-page'
+    name: '&cNext Page'
+    item: ARROW
+    slots:
+      - 35
+  previous-page:
+    function: 'previous-page'
+    name: '&cPrevious Page'
+    item: ARROW
+    slots:
+      - 44
+  contract:
+    function: 'contract'
+    item: BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+    name: '&eContract: {name}'
+    lore:
+      - ''
+      - '&a↪ &eType: &6{type}.'
+      - '&a↪ &eState: &6{state}.'
+      - '&a↪ &eEmployer: &6{employer}'
+      - '&a↪ &eEmployee: &6{employee}'
+      - '&a↪ &eMiddleman: &6{middleman}'
+      - '&a↪ &eDispute called by: {middleman-dispute-caller}'
+      - '&a↪ &eAppealed by: {admin-dispute-caller}'
+      - '&a↪ &ePayment: &6{payment-amount}'
+      - '&a↪ &eGuarantee: &6{guarantee}'
+      - "&a↪ &e&6{employer}&e's Reputation: &6{other-reputation}"
+      - '&a↪ &e&6{employer}&e Total Reviews: &6{other-total-reviews}'
+      - "&a↪ &e&6{employee}&e's Reputation: &6{other-reputation}"
+      - '&a↪ &e&6{employee}&e Total Reviews: &6{other-total-reviews}'
+      - '{type-specific-description}'
+      - '&a↪ &eAccepted &6{open-since} &eago'
+      - '&a↪ &eAdmin Disputed &6{admin-disputed-since} &eago'
+      - '&5------------------------'
+      - '{description}'
+      - '&5------------------------'
+      - '&a↪ &fRight&a Click to close the contract.'
+      - "&a↪ &fShift&a+&fLeft&a Click to see &6{employer}&a's reputation."
+      - "&a↪ &fShift&a+&fRight&a Click to see &6{employee}&a's reputation."

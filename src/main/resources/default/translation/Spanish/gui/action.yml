@@ -1,0 +1,87 @@
+name: '&8Actions for &c{contract-name}&8.'
+slots: 9
+items:
+  go-back:
+    function: go-back
+    name: "&cGo Back"
+    item: OAK_SIGN
+    slots:
+      - 8
+  cancel:
+    function: cancel
+    name: "&cCancel"
+    item: RED_CONCRETE
+    slots:
+      - 7
+  end:
+    function: end
+    name: "&fEnd the contract"
+    item: GREEN_CONCRETE
+    slots:
+      - 6
+  special-action:
+    function: special-action
+    name: "&6{contract-state}&f's Special Action"
+    item: PAPER
+    slots:
+      - 5
+  offer:
+    function: offer
+    name: "&fMake an offer"
+    item: "WRITABLE_BOOK"
+    slots:
+      - 4
+    lore:
+      - ''
+      - "&eLast Offer&e: &6{last-offer}&e from &c{last-offer-player}."
+      - '&eYour offer: &6{offer}&e.'
+      - "&5--------------------------------------"
+      - "&a↪ &fLeft&a Click to make the offer."
+      - "&a↪ &fRight&a Click to modify the offer."
+  accept-offer:
+    function: accept-offer
+    name: "&fAccept the offer"
+    item: "WRITABLE_BOOK"
+    slots:
+      - 3
+    lore:
+      - ''
+      - "&c{other}&e's offer: &6{last-offer}&e."
+      - "&5--------------------------------------"
+      - "&a↪ &fLeft&a Click to accept the offer."
+  call-middleman:
+    function: call-middleman
+    name: "&fCall a middleman."
+    lore:
+      - '&eSignal a dispute by calling a middleman.'
+      - '&eCommission rate: &6{commission-rate}&e%.'
+      - '&eCommission that will be taken: &6{commission}&e.'
+      - "&5--------------------------------------"
+      - "&a↪ &fLeft&a Click to call the dispute."
+    item: "WRITABLE_BOOK"
+    slots:
+      - 2
+  call-admin:
+    function: call-admin
+    name: "&fCall an admin."
+    lore:
+      - 'Appeal the decision of the middleman & call an admin.'
+    item: "WRITABLE_BOOK"
+    slots:
+      - 1
+  review:
+    function: review
+    name: "&fCreate a review."
+    lore:
+      - ''
+      - '&e◆Notation: &6{notation}'
+      - '&e◆Description:'
+      - '{comment}'
+      - "&5--------------------------------------"
+      - '&a↪ &fLeft Click &ato send the review.'
+      - "&a↪ &fRight&a Click to modify the notation."
+      - "&a↪ &fShift &a+&f Right &a Click to modify the comment."
+    item: PAPER
+    slots:
+      - 0
+

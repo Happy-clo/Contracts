@@ -1,0 +1,83 @@
+name: '&8管理有争议的合同'
+slots: 45
+items:
+  next-page:
+    function: 'next-page'
+    name: '&c下一页'
+    item: ARROW
+    slots:
+      - 35
+  previous-page:
+    function: 'previous-page'
+    name: '&c上一页'
+    item: ARROW
+    slots:
+      - 44
+  contract:
+    function: 'contract'
+    item: BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+    name: '&e合同: {name}'
+    lore:
+      - ''
+      - '&a↪ &e类型: &6{type}.'
+      - '&a↪ &e状态: &6{state}.'
+      - '&a↪ &e雇主: &6{employer}'
+      - '&a↪ &e雇员: &6{employee}'
+      - '&a↪ &e调解人: &6{middleman}'
+      - '&a↪ &e由 {middleman-dispute-caller} 提出争议'
+      - '&a↪ &e由 {admin-dispute-caller} 提出上诉'
+      - '&a↪ &e报酬: &6{payment-amount}'
+      - '&a↪ &e保证金: &6{guarantee}'
+      - "&a↪ &e&6{employer}&e 的信誉: &6{other-reputation}"
+      - '&a↪ &e&6{employer}&e 的总评价数: &6{other-total-reviews}'
+      - "&a↪ &e&6{employee}&e 的信誉: &6{other-reputation}"
+      - '&a↪ &e&6{employee}&e 的总评价数: &6{other-total-reviews}'
+      - '{type-specific-description}'
+      - '&a↪ &6{open-since}前 &e被接受'
+      - '&a↪ &6{admin-disputed-since}前 &e向管理员提出上诉'
+      - '&5------------------------'
+      - '{description}'
+      - '&5------------------------'
+      - '&a↪ &f右键点击&a 以关闭这个合同.'
+      - "&a↪ &fShift&a+&f左键点击&a 以查看 &6{employer}&a 的历史评价."
+      - "&a↪ &fShift&a+&f右键点击&a 以查看 &6{employee}&a 的历史评价."

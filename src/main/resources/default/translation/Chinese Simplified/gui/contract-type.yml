@@ -1,0 +1,30 @@
+#GUI display name
+name: "&8类型 {type} "
+#Number of slots in your inventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 9
+items:
+  generic:
+    function: generic
+    name: '&6通用合同'
+    slots:
+      - 0
+    item: BLACK_CONCRETE
+  hitman:
+    function: 'hitman'
+    name: '&6击杀合同'
+    slots:
+      - 1
+    item: RED_CONCRETE
+  trade:
+    function: 'trade'
+    name: '&6交易合同'
+    slots:
+      - 2
+    item: BLUE_CONCRETE
+  lending:
+    function: 'lending'
+    name: '&6放贷合同'
+    slots:
+      - 3
+    item: WHITE_CONCRETE

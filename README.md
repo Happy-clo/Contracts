@@ -1,2 +1,6 @@
-# Contracts
-Bring more player interactions in a safe and simple manner.
+## BungeeCord数据同步
+
+有两个SQL表，一个用于合同（contracts），一个用于玩家数据（playerData）。
+当服务器为空时，RAM中不保存任何数据；当第一个玩家加入时，所有合同数据将加载到RAM中。玩家数据在需要时会即时加载，并缓存10分钟。每当涉及到玩家数据或合同的操作时，通过将数据保存在SQL数据库中，然后通过插件消息通知所有服务器更新它们的数据来同步所有服务器。
+关于"is_saved"的技巧是不必要的，因为SQL数据库中的数据始终是最新的。
+（这对于MMOCore不适用）。

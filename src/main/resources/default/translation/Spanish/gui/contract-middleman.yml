@@ -1,0 +1,148 @@
+name: '&8{contract-state} &cContracts'
+slots: 45
+items:
+  next-page:
+    function: 'next-page'
+    name: '&cNext Page'
+    item: ARROW
+    slots:
+      - 35
+  previous-page:
+    function: 'previous-page'
+    name: '&cPrevious Page'
+    item: ARROW
+    slots:
+      - 44
+  contract:
+    function: 'contract'
+    item: BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    name: '&eContract: {name}'
+    middleman-disputed:
+      name: '&aContract: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &eType: &6{type}.'
+        - '&f◆ &eState: &6{state}.'
+        - '&f◆ &eEmployer: &6{employer}'
+        - '&f◆ &eEmployee: &6{employee}'
+        - '&f◆ &eMiddleman: &6{middleman}'
+        - '&f◆ &eDispute called by: {middleman-dispute-caller}'
+        - '&f◆ &ePayment: &6{payment-amount}'
+        - '&f◆ &eGuarantee: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e Total Reviews: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e Total Reviews: &6{other-total-reviews}'
+        - '&f◆ &eAccepted &6{open-since} &eago'
+        - '&f◆ &eMiddleman Disputed &6{middleman-disputed-since} &eago'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&fLeft&a Click to see &6{employer}&a's reputation."
+        - "&a↪ &fShift&a+&fRight&a Click to see &6{employee}&a's reputation."
+        - '&a↪ &fRight&a Click to change the amount the employer has to pay.'
+        - '&a↪ &fLeft&a Click to confirm your decision to make the employer pay &f{amount}&a.'
+    middleman-resolved:
+      name: '&aContract: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &eType: &6{type}.'
+        - '&f◆ &eState: &6{state}.'
+        - '&f◆ &eEmployer: &6{employer}'
+        - '&f◆ &eEmployee: &6{employee}'
+        - '&f◆ &eMiddleman: &6{middleman}'
+        - '&f◆ &eDispute called by: {middleman-dispute-caller}'
+        - '&f◆ &ePayment: &6{payment-amount}'
+        - '&f◆ &eGuarantee: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e Total Reviews: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e Total Reviews: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &eAccepted &6{open-since} &eago'
+        - '&f◆ &eMiddleman Resolved &6{middleman-resolved-since} &eago'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&fLeft&a Click to see &6{employer}&a's reputation."
+        - "&a↪ &fShift&a+&fRight&a Click to see &6{employee}&a's reputation."
+    admin-disputed:
+      name: '&aContract: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &eType: &6{type}.'
+        - '&f◆ &eState: &6{state}.'
+        - '&f◆ &eEmployer: &6{employer}'
+        - '&f◆ &eEmployee: &6{employee}'
+        - '&f◆ &ePayment: &6{payment-amount}'
+        - '&f◆ &eGuarantee: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e Total Reviews: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e Total Reviews: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &eAccepted &6{open-since} &eago'
+        - '&f◆ &eAdmin Disputed &6{admin-disputed-since} &eago'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&fLeft&a Click to see &6{employer}&a's reputation."
+        - "&a↪ &fShift&a+&fRight&a Click to see &6{employee}&a's reputation."
+    resolved:
+      name: '&aContract: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &eType: &6{type}.'
+        - '&f◆ &eState: &6{state}.'
+        - '&f◆ &eEmployer: &6{employer}'
+        - '&f◆ &eEmployee: &6{employee}'
+        - '&f◆ &ePayment: &6{payment-amount}'
+        - '&f◆ &eGuarantee: &6{guarantee}'
+        - '&f◆ &eHas been reviewed: &6{has-been-reviewed}'
+        - '&f◆ &eCan be reviewed: &6{can-be-reviewed}'
+        - "&f◆ &e&6{employer}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e Total Reviews: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e's Reputation: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e Total Reviews: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &eResolved &6{resolved-since} &eago'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&fLeft&a Click to see &6{employer}&a's reputation."
+        - "&a↪ &fShift&a+&fRight&a Click to see &6{employee}&a's reputation."
+  change-state:
+    function: 'change-state'
+    name: '&eClick to see &6{contract-state}&e contracts.'
+    #The materials depending on the slot of the change-view item
+    material1: BLUE_CONCRETE
+    material2: WHITE_CONCRETE
+    material3: RED_CONCRETE
+    material4: GREEN_CONCRETE
+    slots:
+      - 8
+      - 17
+      - 26
+      - 35

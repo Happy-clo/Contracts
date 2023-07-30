@@ -1,0 +1,42 @@
+#GUI display name
+name: "&8Contracts Hub"
+#Number of slots in your paramnventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 9
+items:
+  reputation:
+    function: reputation
+    name: '&6Reputation'
+    slots:
+      - 0
+    item: BLACK_CONCRETE
+  creation:
+    function: creation
+    name: '&6Contract Creation'
+    slots:
+      - 1
+    item: BLUE_CONCRETE
+  market:
+    function: market
+    name: '&6Contract Market'
+    slots:
+      - 2
+    item: RED_CONCRETE
+  portfolio:
+    function: 'portfolio'
+    name: '&6Contract Portfolio'
+    slots:
+      - 3
+    item: WHITE_CONCRETE
+  middleman:
+    function: 'middleman'
+    name: '&6Middleman Portfolio'
+    slots:
+      - 7
+    item: GREEN_CONCRETE
+  admin:
+    function: 'admin'
+    name: '&6Admin GUI'
+    slots:
+      - 8
+    item: GRAY_CONCRETE

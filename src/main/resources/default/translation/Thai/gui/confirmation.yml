@@ -1,0 +1,18 @@
+#GUI display name
+name: Are you sure?
+#Number of slots in your inventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 9
+items:
+  yes:
+    function: 'yes'
+    slots:
+      - 2
+    name: '&aYes'
+    item: GREEN_CONCRETE
+  back:
+    function: 'back'
+    name: '&cBack'
+    slots:
+      - 6
+    item: RED_CONCRETE

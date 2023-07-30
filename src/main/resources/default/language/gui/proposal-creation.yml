@@ -1,0 +1,42 @@
+name: '&8参与 {contract-name} 的竞标.'
+slots: 9
+items:
+  back:
+    name: '&c返回'
+    function: 'back'
+    item: OAK_SIGN
+    slots:
+      - 8
+  confirm:
+    function: 'confirm'
+    name: '&a确认'
+    item: GREEN_WOOL
+    slots:
+      - 0
+  amount:
+    function: 'amount'
+    name: '&f设置金额'
+    item: PAPER
+    slots:
+      - 3
+    lore:
+      - ''
+      - '&e◆当前金额: &6{amount}&e.'
+      - '&e◆初始金额: &6{initial-amount}&e.'
+      - "&5--------------------------------------"
+      - '&a↪ &f左键点击&a 以修改金额.'
+  guarantee:
+    function: 'guarantee'
+    name: '&f设置保证金'
+    item: PAPER
+    slots:
+      - 5
+    lore:
+      - ''
+      - '&e◆当前保证金: &6{guarantee}&e.'
+      - '&e◆初始保证金: &6{initial-guarantee}&e.'
+      - "&5--------------------------------------"
+      - '&a↪ &f左键点击 &a以修改保证金.'
+
+
+

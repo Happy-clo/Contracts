@@ -1,0 +1,25 @@
+name: Contracts
+main: fr.phoenix.contracts.Contracts
+version: ${project.version}
+api-version: 1.13
+depend: [ Vault ]
+softdepend: [ PlaceholderAPI, BungeeCord ]
+
+permissions:
+  contracts.admin:
+    description: 合同管理员权限。
+    default: op
+  contracts.contracts:
+    description: 访问 /contracts 命令。
+    default: op
+  contracts.middleman:
+    description: 合同中间人权限。
+    default: false
+  contracts.notify:
+    description: 接收新创建合同的通知权限。
+    default: false
+
+commands:
+  contract:
+    description: 主命令。
+    aliases: [ co, contracts ]

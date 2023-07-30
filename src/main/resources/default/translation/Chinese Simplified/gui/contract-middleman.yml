@@ -1,0 +1,148 @@
+name: '&8{contract-state} &c合同'
+slots: 45
+items:
+  next-page:
+    function: 'next-page'
+    name: '&c下一页'
+    item: ARROW
+    slots:
+      - 35
+  previous-page:
+    function: 'previous-page'
+    name: '&c上一页'
+    item: ARROW
+    slots:
+      - 44
+  contract:
+    function: 'contract'
+    item: BOOK
+    slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    name: '&e合同: {name}'
+    middleman-disputed:
+      name: '&a合同: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &e类型: &6{type}.'
+        - '&f◆ &e状态: &6{state}.'
+        - '&f◆ &e雇主: &6{employer}'
+        - '&f◆ &e雇员: &6{employee}'
+        - '&f◆ &e调解人: &6{middleman}'
+        - '&f◆ &e由 {middleman-dispute-caller} 提出争议'
+        - '&f◆ &e报酬: &6{payment-amount}'
+        - '&f◆ &e保证金: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e 的总评价数: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e 的总评价数: &6{other-total-reviews}'
+        - '&f◆ &6{open-since}前 &e被发布'
+        - '&f◆ &6{middleman-disputed-since}前 &e提出争议'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&f左键点击&a 以查看 &6{employer}&a 的历史评价."
+        - "&a↪ &fShift&a+&f右键点击&a 以查看 &6{employee}&a 的历史评价."
+        - '&a↪ &f右键点击&a 以修改雇主需要支付的报酬.'
+        - '&a↪ &f左键点击&a 以确认雇主需要支付 &f{amount}&a.'
+    middleman-resolved:
+      name: '&a合同: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &e类型: &6{type}.'
+        - '&f◆ &e状态: &6{state}.'
+        - '&f◆ &e雇主: &6{employer}'
+        - '&f◆ &e雇员: &6{employee}'
+        - '&f◆ &e调解人: &6{middleman}'
+        - '&f◆ &e由 {middleman-dispute-caller} 提出争议'
+        - '&f◆ &e报酬: &6{payment-amount}'
+        - '&f◆ &e保证金: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e 的总评价数: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e 的总评价数: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &6{open-since}前 &e被发布'
+        - '&f◆ &6{middleman-resolved-since}前 &e被调解人解决'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&f左键点击&a 以查看 &6{employer}&a 的历史评价."
+        - "&a↪ &fShift&a+&f右键点击&a 以查看 &6{employee}&a 的历史评价."
+    admin-disputed:
+      name: '&a合同: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &e类型: &6{type}.'
+        - '&f◆ &e状态: &6{state}.'
+        - '&f◆ &e雇主: &6{employer}'
+        - '&f◆ &e雇员: &6{employee}'
+        - '&f◆ &e报酬: &6{payment-amount}'
+        - '&f◆ &e保证金: &6{guarantee}'
+        - "&f◆ &e&6{employer}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e 的总评价数: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e 的总评价数: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &6{open-since}前 &e被发布'
+        - '&f◆ &6{admin-disputed-since}前 &e向管理员提出上诉'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&f左键点击&a 以查看 &6{employer}&a 的历史评价."
+        - "&a↪ &fShift&a+&f右键点击&a 以查看 &6{employee}&a 的历史评价."
+    resolved:
+      name: '&a合同: &c{name}'
+      lore:
+        - ''
+        - '&f◆ &e类型: &6{type}.'
+        - '&f◆ &e状态: &6{state}.'
+        - '&f◆ &e雇主: &6{employer}'
+        - '&f◆ &e雇员: &6{employee}'
+        - '&f◆ &e报酬: &6{payment-amount}'
+        - '&f◆ &e保证金: &6{guarantee}'
+        - '&f◆ &e是否已被评价: &6{has-been-reviewed}'
+        - '&f◆ &e可被评价: &6{can-be-reviewed}'
+        - "&f◆ &e&6{employer}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employer}&e 的总评价数: &6{other-total-reviews}'
+        - "&f◆ &e&6{employee}&e 的信誉: &6{other-reputation}"
+        - '&f◆ &e&6{employee}&e 的总评价数: &6{other-total-reviews}'
+        - '{type-specific-description}'
+        - '&f◆ &6{resolved-since}前 &e被解决'
+        - '&5------------------------'
+        - '{description}'
+        - '&5------------------------'
+        - "&a↪ &fShift&a+&f左键点击&a 以查看 &6{employer}&a 的历史评价."
+        - "&a↪ &fShift&a+&f右键点击&a 以查看 &6{employee}&a 的历史评价."
+  change-state:
+    function: 'change-state'
+    name: '&e点击查看 &6{contract-state}&e 合同.'
+    #The materials depending on the slot of the change-view item
+    material1: BLUE_CONCRETE
+    material2: WHITE_CONCRETE
+    material3: RED_CONCRETE
+    material4: GREEN_CONCRETE
+    slots:
+      - 8
+      - 17
+      - 26
+      - 35

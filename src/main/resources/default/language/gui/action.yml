@@ -1,0 +1,87 @@
+name: '&8为 &c{contract-name}&8 执行操作.'
+slots: 9
+items:
+  go-back:
+    function: go-back
+    name: "&c返回"
+    item: OAK_SIGN
+    slots:
+      - 8
+  cancel:
+    function: cancel
+    name: "&c取消"
+    item: RED_CONCRETE
+    slots:
+      - 7
+  end:
+    function: end
+    name: "&f结束合同"
+    item: GREEN_CONCRETE
+    slots:
+      - 6
+  special-action:
+    function: special-action
+    name: "&6{contract-state}&f 的特殊操作"
+    item: PAPER
+    slots:
+      - 5
+  offer:
+    function: offer
+    name: "&f提出报价"
+    item: "WRITABLE_BOOK"
+    slots:
+      - 4
+    lore:
+      - ''
+      - "&e上次报价&e: 来自 &c{last-offer-player} 的 &6{last-offer}&e."
+      - '&e你的报价: &6{offer}&e.'
+      - "&5--------------------------------------"
+      - "&a↪ &f左键点击&a 以提出报价."
+      - "&a↪ &f右键点击&a 以修改报价."
+  accept-offer:
+    function: accept-offer
+    name: "&f接受报价"
+    item: "WRITABLE_BOOK"
+    slots:
+      - 3
+    lore:
+      - ''
+      - "&c{other}&e 的报价: &6{last-offer}&e."
+      - "&5--------------------------------------"
+      - "&a↪ &f左键点击&a 以接受报价."
+  call-middleman:
+    function: call-middleman
+    name: "&f呼叫调解人."
+    lore:
+      - '&e通过呼叫中间人以解决合同纠纷.'
+      - '&e佣金比例: &6{commission-rate}&e%.'
+      - '&e将被收取的佣金数量: &6{commission}&e.'
+      - "&5--------------------------------------"
+      - "&a↪ &f左键点击&a 以提出争议."
+    item: "WRITABLE_BOOK"
+    slots:
+      - 2
+  call-admin:
+    function: call-admin
+    name: "&f呼叫管理员."
+    lore:
+      - '对调解人的决定提出上诉并呼叫管理员.'
+    item: "WRITABLE_BOOK"
+    slots:
+      - 1
+  review:
+    function: review
+    name: "&f发布评价."
+    lore:
+      - ''
+      - '&e◆评级: &6{notation}'
+      - '&e◆评论:'
+      - '{comment}'
+      - "&5--------------------------------------"
+      - '&a↪ &f左键点击 &a以发布评论.'
+      - "&a↪ &f右键点击&a 以调整评级."
+      - "&a↪ &fShift &a+&f 右键点击 &a 以修改评论."
+    item: PAPER
+    slots:
+      - 0
+

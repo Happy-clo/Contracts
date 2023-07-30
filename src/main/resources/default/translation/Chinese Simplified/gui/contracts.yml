@@ -1,0 +1,42 @@
+#GUI display name
+name: "&8合同中心"
+#Number of slots in your paramnventory. Must be
+#between 9 and 54 and must be a multiple of 9.
+slots: 9
+items:
+  reputation:
+    function: reputation
+    name: '&6历史评价'
+    slots:
+      - 0
+    item: BLACK_CONCRETE
+  creation:
+    function: creation
+    name: '&6创建合同'
+    slots:
+      - 1
+    item: BLUE_CONCRETE
+  market:
+    function: market
+    name: '&6合同市场'
+    slots:
+      - 2
+    item: RED_CONCRETE
+  portfolio:
+    function: 'portfolio'
+    name: '&6合同列表'
+    slots:
+      - 3
+    item: WHITE_CONCRETE
+  middleman:
+    function: 'middleman'
+    name: '&6调解人列表'
+    slots:
+      - 7
+    item: GREEN_CONCRETE
+  admin:
+    function: 'admin'
+    name: '&6管理员页面'
+    slots:
+      - 8
+    item: GRAY_CONCRETE

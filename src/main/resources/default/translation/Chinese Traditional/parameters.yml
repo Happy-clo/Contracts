@@ -1,0 +1,35 @@
+name:
+  name: name
+  description:
+    - What is your contract called?
+description:
+  name: description
+  description:
+    - How would you describe your contract?
+deadline:
+  name: deadline
+  description:
+    - The amount of days this
+    - contract needs to be fulfilled by.
+guarantee:
+  name: guarantee
+  description:
+    - The amount of money the employee will have
+    - to pay you if the contract is not fulfilled.
+payment-amount:
+  name: payment amount
+  description:
+    - The amount of money you will
+    - pay the employee if he fulfills the contract.
+player-to-kill:
+  name: player to kill
+  description:
+    - Who is the player that needs to be killed?
+traded-item:
+  name: item
+  description:
+    - What is the name of the item you want?
+traded-item-amount:
+  name: item amount
+  description:
+    - How many of the defined items?

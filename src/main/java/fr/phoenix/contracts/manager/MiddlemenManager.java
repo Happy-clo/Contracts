@@ -41,7 +41,8 @@ public class MiddlemenManager {
 
     public List<PlayerData> getAssignableMiddleman(Contract contract) {
         List<PlayerData> assignableMiddlemen = new ArrayList<>();
-        for (PlayerData playerData : PlayerData.getAll()) {
+        for (Player player : Bukkit.getOnlinePlayers()) {
+            PlayerData playerData = Contracts.plugin.dataProvider.getPlayerDataManager().get(player.getUniqueId());
             if (isAssignableToMiddleman(contract, playerData))
                 assignableMiddlemen.add(playerData);
         }

@@ -1,0 +1,12 @@
+contract-created: '{
+  "embeds": [
+  {
+    "title": "New {contract-type} contract created",
+    "description": "{player-name} created the contract {contract-name}. \n Price: {contract-amount}",
+    "color": 10747904,
+    "thumbnail": {
+      "url": "https://gitlab.com/uploads/-/system/project/avatar/39123972/contracts.png?width=64"
+    }
+  }
+]
+}'

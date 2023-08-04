@@ -5,18 +5,18 @@ color-code-char: '&'
 
 # MySQL 支持
 mysql:
-  enabled: false
+  enabled: true
   host: localhost
   port: 3306
-  database: minecraft
+  database: happy
   user: root
-  pass: pass
+  pass: happy2010!W
   properties:
     cachePrepStmts: true
     prepStmtCacheSize: 250
     prepStmtCacheSqlLimit: 2048
   # 当从 SQL 数据库保存/加载数据时，会在控制台上输出详细信息。
-  debug: false
+  debug: true
 
 # 如果要启用向 Discord 发送消息，请设置为 true。
 send-discord-messages: false
